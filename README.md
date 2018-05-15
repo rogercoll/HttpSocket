@@ -18,3 +18,4 @@ localhost:80
 <br>
 
 > Remember that the port for web services must be 80
+> It serves the file whose name is "baidu.html" and is located in "/WEB"
