@@ -14,7 +14,7 @@ void doService(int fd) {
 		int socket_fd = (int) fd;
 		char *filename = "/baidu.html";
 		char path[128] = {'\0'};
-		sprintf(path,"%s%s",WEB_ROOT,filename);//衔接字符串
+		sprintf(path,"%s%s",WEB_ROOT,filename);
 		FILE *fp = fopen(path,"r");
 		if(fp == NULL){
 			char errmsg[32] = {"<h1>404 Not Found</h1>"};
