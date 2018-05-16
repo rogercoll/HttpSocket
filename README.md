@@ -8,7 +8,7 @@ Very basic Socket implementation that serves a html file on port 80.
 ```
 git clone https://github.com/rogercoll/HttpSocket.git
 cd HttpSocket
-gcc -o serverSocket -g serverSocket.c socketMng.o
+gcc -o serverSocket serverSocket.c socketMng.c
 ./serverSocket 80
 ```
 #### On any browser:
